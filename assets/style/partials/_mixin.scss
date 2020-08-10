@@ -1,0 +1,40 @@
+
+@import "variables";
+
+@mixin stop-blue {
+    -webkit-tap-highlight-color: transparent;    
+}
+
+ @mixin flex-row-btw-center{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+ @mixin flex-column-center-center {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ @mixin main-font-medium {
+    font-family: $main_font;
+    font-weight: 500;
+}
+@mixin main-font-bold {
+    font-family: $main_font;
+    font-weight: 700;
+}
+@mixin second-font-bold {
+    font-family: $secondary-font;
+    font-weight: 700;
+}
+@mixin second-font-regular {
+    font-family: $secondary-font;
+    font-weight: 400;
+}
+@mixin second-font-black {
+    font-family: $secondary-font;
+    font-weight: 900;
+}
